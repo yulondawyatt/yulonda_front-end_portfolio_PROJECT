@@ -19,7 +19,7 @@ This project should:
 --------------------
 
      * [X] Have a deployed front-end application.
-     * [] Allow for user interaction through button clicks and form inputs.
+     * [x] Allow for user interaction through button clicks and form inputs.
      * [] Make requests to an external API.
      * [X] Hava a theme and a unique product design.
 
@@ -29,7 +29,7 @@ Overall Requirements:
      1. [X] Create a GitHub repository and upload your code to it.
      2. [X] Your GitHub repository should have a 'readme.md' file with setup instructions for your application.
      3. [X] Your project should have a coherent theme and narrative.
-     4. [] You project should be deployed to the web. Include a URL to your deployed website in the 'readme.md' file.
+     4. [x] You project should be deployed to the web. Include a URL to your deployed website in the 'readme.md' file.
 
 Front-end visual requirements:
 -----------------------------
