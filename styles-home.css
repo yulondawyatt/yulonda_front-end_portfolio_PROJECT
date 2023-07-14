@@ -33,7 +33,10 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	display: list-style;
+	list-style-type: none;
+	display: inline-block;
+	color: rgb(252, 220, 220);
 }
 blockquote, q {
 	quotes: none;
@@ -48,3 +51,57 @@ table {
 	border-spacing: 0;
 }
 
+
+
+/* STYLES FOR THE HOME PAGE */
+
+img {
+	font-style: italic;
+	height: 200px;
+	width: 1460px;
+}
+
+/* TOP NAVIGATION STYLE */
+ /* add a blackish-gradient background color to the top navigation */
+.topnav {
+	background-color: #333;
+	overflow: hidden;
+	
+}
+
+/* Style links inside navigation bar */
+
+.topnav {
+	background-image: linear-gradient(black, gray, white); 
+}
+
+.topnav a {
+	float: right;
+	color: aliceblue;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/* CHANGE THE COLOR OF THE LINKS ON 'HOVER' */
+
+.topnav a:hover {
+	background-color:salmon;
+	color: purple;
+}
+/* MAIN */
+
+h1 {
+	font-family: Papyrus, Verdana, sans-serif;
+	font-size: 60px;
+	font-style: oblique;
+	text-align: center;
+}
+
+p {
+	font-family: verdana, sans-serif;
+	font-size: 30px;
+	font-style: oblique;
+	text-align: center;
+}
