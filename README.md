@@ -2,6 +2,10 @@
 > margins, paddings, borders, line-height, etc. in order to reduce
 > browser inconsistency.
 
+git remote add origin https://github.com/yulondawyatt/yulonda_front-end_portfolio_PROJECT.git
+git branch -M main
+git push -u origin main
+
 PROJECT REQUIREMENTS
 =======================
 
@@ -21,7 +25,7 @@ Overall Requirements:
      3. [] Your project should have a coherent theme and narrative.
      4. [] You project should be deployed to the web. Include a URL to your deployed website in the 'readme.md' file.
 
-Fron-end visual requirements:
+Front-end visual requirements:
 -----------------------------
 
      5. [] Your application must have at least two '.html' files that are connected.
