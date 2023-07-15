@@ -7,27 +7,43 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: Verdana;
+}
+
 /* Style links inside navigation bar */
 
-.topnav {
-	background-image: linear-gradient(black, gray, white); 
+nav {
+	background: linear-gradient(black, gray, white);
+	height: 80px;
+	width: 100%;
 }
 
-.topnav a {
+nav ul {
 	float: right;
-	color: aliceblue;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
+	font-family:'Courier New', Courier, monospace, sans-serif;
+	margin-right: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a {
+	color: whitesmoke;
 	font-size: 18px;
+	padding: 8px 15px;
+	border-radius: 3px;
+	text-transform: uppercase;
 }
 
-/* CHANGE THE COLOR OF THE LINKS ON 'HOVER' */
-
-.topnav a:hover {
-	background-color:salmon;
-	color: purple;
+a.acitve, a:hover{
+	 background: salmon;
+	 text-transform: .5s;
 }
+
 
 h1 {
 	font-family: Papyrus, Verdana, sans-serif;
