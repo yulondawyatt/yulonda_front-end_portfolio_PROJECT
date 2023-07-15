@@ -40,8 +40,8 @@ Front-end visual requirements:
      7. [] Your application must include one or more '.js' files that are linked to one or more pages.
      8. [] You must make use of CSS Grid to organize your content on at least one of your pages.
      9. [X] You must use the ':hover' selector in at least one CSS rule.
-    10. [] You must use an HTML form on at least one of your pages.
-    11. [] All of your pages must have some visual changes that occur when the screen is a different size.
+    10. [] You must use an HTML form on at least on one of your pages.
+    11. [x] All of your pages must have some visual changes that occur when the screen is a different size.
 
     Mastery rubric:
 
