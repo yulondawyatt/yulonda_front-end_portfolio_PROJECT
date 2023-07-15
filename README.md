@@ -19,7 +19,8 @@ This project should:
 --------------------
 
      * [X] Have a deployed front-end application.
-     * [x] Allow for user interaction through button clicks and form inputs.
+     * [x] Allow for user interaction through button clicks.
+     * [] Allow for user interaction through form inputs.
      * [] Make requests to an external API.
      * [X] Hava a theme and a unique product design.
 

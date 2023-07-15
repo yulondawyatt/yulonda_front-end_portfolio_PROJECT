@@ -55,40 +55,43 @@ table {
 
 /* STYLES FOR THE HOME PAGE */
 
+
+.container {
+	border: 1px;
+	padding: 5px;
+}
+
 img {
 	font-style: italic;
 	height: 200px;
-	width: 1460px;
+	width: 1440px;
+	padding-bottom: 5%;
 }
 
 /* TOP NAVIGATION STYLE */
  /* add a blackish-gradient background color to the top navigation */
-.topnav {
-	background-color: #333;
-	overflow: hidden;
-	
-}
 
-/* Style links inside navigation bar */
-
-.topnav {
-	background-image: linear-gradient(black, gray, white); 
-}
-
-.topnav a {
+ .topnav {
+	display: flex;
 	float: right;
-	color: aliceblue;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 18px;
-}
+	padding: 20px 22px;
+	background-color: linear-gradient(black, gray, white);
 
+	
+ } 
+ 
+/* Style links inside navigation bar */
+div .topnav a {
+	color: whitesmoke;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	font-style: cursive;
+}
 /* CHANGE THE COLOR OF THE LINKS ON 'HOVER' */
 
 .topnav a:hover {
-	background-color:salmon;
-	color: purple;
+	color:salmon;
 }
 /* MAIN */
 
@@ -104,4 +107,14 @@ p {
 	font-size: 30px;
 	font-style: oblique;
 	text-align: center;
+}
+
+/* END OF BASE STYLES */
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+
 }

@@ -59,6 +59,7 @@ table {
 /* TOP NAVIGATION STYLE */
  /* add a blackish-gradient background color to the top navigation */
  .topnav {
+	display: grid;
 	background-color: #333;
 	overflow: hidden;
 	
@@ -85,3 +86,23 @@ table {
 	background-color:salmon;
 	color: purple;
 }
+
+h1 {
+	font-family: Papyrus, Verdana, sans-serif;
+	font-size: 60px;
+	font-style: oblique;
+	text-align: center;
+}
+
+p {
+	font-family: verdana, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+}
+
+/* STRUCTRUAL CHANGES FOR THE MAIN BODY */
+
+/* Main layout for body */
+
+/* END OF BASE STYLES */
