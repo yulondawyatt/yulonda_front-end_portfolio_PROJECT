@@ -1,6 +1,4 @@
-> Used reset tool from meyerweb.com/eric to remove all automatic
-> margins, paddings, borders, line-height, etc. in order to 
-> reduce browser inconsistency.  
+
 
 GO TO MY PROJECT
 =================
@@ -12,10 +10,10 @@ PROJECT INTENT
 ===============
 The purpose of this beginner project is to show how much of the front-end coding learning has been absorbed. The project should include HTML files, CSS files, JavaScript files, at least one API, and a README.md file. Below I have marked off the tasks that I feel I have sucessfully completed. If a task is not marked with an [x] I feel that I have not completed the task. 
 
-PROJECT REQUIREMENTS
-=======================
+GENERAL PROJECT REQUIREMENTS:
+=============================
 
-This project should:
+This project should meet these basic overall requirements:
 --------------------
 
      * [X] Have a deployed front-end application.
@@ -24,8 +22,8 @@ This project should:
      * [] Make requests to an external API.
      * [X] Hava a theme and a unique product design.
 
-Overall Requirements:
----------------------
+SPECIFIC PROJECT REQUIREMENTS:
+===============================
 
      1. [X] Create a GitHub repository and upload your code to it.
      2. [X] Your GitHub repository should have a 'readme.md' file with setup instructions for your application.
@@ -46,6 +44,8 @@ Front-end visual requirements:
     Mastery rubric:
 
     This section of the project is designed to measure your increasing skill at writing good code and following best practices. To view components of the mastery rubric, view the appropriate assignment on Canvas.
+
+    ....
 
 
 

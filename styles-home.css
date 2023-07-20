@@ -11,19 +11,22 @@
 }
 
 body {
+
 	font-family: Verdana;
+	height: auto;
 }
 
+/* STYLE LINKS INSIDE NAV BAR */
 nav {
 	background: linear-gradient(black, gray, white);
-	height: 80px;
+	height: 100px;
 	width: 100%;
 }
 
 nav ul {
 	float: right;
 	font-family:'Courier New', Courier, monospace, sans-serif;
-	margin-right: 20px;
+	margin-right: 15px;
 }
 
 nav ul li {
@@ -32,7 +35,7 @@ nav ul li {
 	margin: 0 5px;
 }
 
-nav ul li a {
+nav ul li a{
 	color: whitesmoke;
 	font-size: 18px;
 	padding: 8px 15px;
@@ -40,24 +43,13 @@ nav ul li a {
 	text-transform: uppercase;
 }
 
-a.acitve, a:hover{
-	 background: salmon;
-	 text-transform: .5s;
+.acitve, a.hover{
+	background: salmon;
+	text-transform: .5s;
 }
 
-h1.logo {
-	color: whitesmoke;
-	font-size: 35px;
-	line-height: 80px;
-	padding: 0 100px;
-	font-weight: bold;
-}
-
-
-.container {
-	display: flex;
-	border: 1px;
-	padding: 5px;
+.box1 {
+	height: 300px;
 }
 
 img {
@@ -65,48 +57,50 @@ img {
 	height: 200px;
 	width: 1440px;
 	padding-bottom: 5%;
+	border-radius: 10px;
 }
 
-/* TOP NAVIGATION STYLE */
- /* ?? add a black-and-white-gradient background color to the top navigation bar */
-
- /*.topnav {
-	padding: 20px 22px;
-	background-color: red;
-	width: 100%; 
- } */
- 
 /*
->> Style links inside navigation bar
-div .topnav a {
-	color: black; >>TEXT COLOR
-	text-decoration: none;
-	font-size: 20px;
-	font-style: Verdana;
-	float: right;
+logo {
+	color: whitesmoke;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
 }
 */
 
-/* CHANGE THE COLOR OF THE LINKS ON 'HOVER' */
+/* STYLES FOR MAIN PAGE CONTENT */
 
-/*.topnav a:hover {
-	color:salmon;
-	float:right;
+.box2 {
+	background-image:linear-gradient(white, whitesmoke, gray, black);
+	height: 400px;
 }
 
-/* MAIN */
+div button{
+	background: red;
+	border-radius: 5px;
+	float: right;
+	position: relative;
+	font-size: 20px;
+}
+
+.box1 {
+	margin: 10px;
+	padding: 40px;
+}
 
 h1 {
 	font-family: Papyrus, Verdana, sans-serif;
 	font-size: 60px;
-	font-style: oblique;
+	font-style:italic;
 	text-align: center;
 }
 
 p {
 	font-family: verdana, sans-serif;
 	font-size: 30px;
-	font-style: oblique;
+	font-style: italic;
 	text-align: center;
 }
 
